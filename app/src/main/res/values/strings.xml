@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">AuctionApp</string>
+    <string name="auction_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed ligula dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed ligula dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed ligula dui.</string>
+    <string name="date_format">dd-mm-yyyy</string>
+    <string name="create_auction_label">New Auction</string>
+    <string name="auction_type_1">English</string>
+    <string name="auction_type_2">Sealed bid</string>
+    <string name="auction_title">New Auction</string>
+    <string name="sample_title">Title</string>
+    <string name="sample_desc">Description</string>
+    <string name="min_bid_label">Min. bid amount</string>
+    <string name="min_bid_hint">0.00</string>
+    <string name="start_date_label">Number of days</string>
+    <string name="create_button_label">Create</string>
+    <string name="end_date_label">End Date</string>
+    <string name="load_picture">Load Picture</string>
+    <string name="sample_username">username</string>
+    <string name="bid_button_label">Place bid</string>
+    <string name="auction_image_desc">Auction image</string>
+    <string name="product_title">Product Name</string>
+    <string name="sample_starting_bid">$200</string>
+    <string name="sample_time_left">0d 0h</string>
+    <string name="bid_label">0 bids</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="warning">Warning</string>
+    <string name="home_label">Home</string>
+    <string name="categories_label">Categories</string>
+    <string name="collectibles_category">Collectibles</string>
+    <string name="jewellery_category">Jewellery</string>
+    <string name="electronics_category">Electronics</string>
+    <string name="sort_label_1">Ending soonest</string>
+    <string name="sort_label">Sort</string>
+    <string name="auction_type_label">Auction type</string>
+    <string name="show_all">Show all</string>
+    <string name="bid_sample_text">We will bid for you, up to</string>
+    <string name="bid_submit">Submit Bid</string>
+    <string name="suggested_bid_1">$50</string>
+    <string name="suggested_bid_2">$100</string>
+    <string name="suggested_bid_3">$500</string>
+    <string name="nav_header_user">Hello %1$s!</string>
+    <string name="select_image_title">Select Image</string>
+    <string name="currency">$</string>
+    <string name="sample_bid_amount">0.00</string>
+    <string name="closed_msg">CLOSED</string>
+    <string name="coming_soon_msg">Coming Soon</string>
+    <string name="electronics_page">electronics</string>
+    <string name="collectible_page">collectible</string>
+    <string name="jewellery_page">jewellery</string>
+    <string name="home_page">home</string>
+    <string name="my_auctions">My Auctions</string>
+    <string name="rating_header">Rate your experience!</string>
+    <string name="review_header">Leave a review!</string>
+    <string name="rating_submit">Submit Rating</string>
+    <string name="review_description">Describe your experience here…</string>
+    <string name="won_page">Won auctions page</string>
+    <string-array name="categories_array">
+        <item>Collectibles</item>
+        <item>Electronics</item>
+        <item>Jewellery</item>
+    </string-array>
+    <string-array name="days_array">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>10</item>
+        <item>30</item>
+    </string-array>
+</resources>

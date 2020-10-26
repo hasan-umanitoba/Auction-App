@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="@string/home_label" />
+        <item
+            android:id="@+id/new_auction"
+            android:title="@string/create_auction_label" />
+    </group>
+    <item android:title="@string/categories_label">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/collectibles_filter"
+                    android:title="@string/collectibles_category" />
+                <item
+                    android:id="@+id/jewellery_filter"
+                    android:title="@string/jewellery_category" />
+                <item
+                    android:id="@+id/electronics_filter"
+                    android:title="@string/electronics_category" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/my_auctions">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/won_auction"
+                    android:title="Won Auctions"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

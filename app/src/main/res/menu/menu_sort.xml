@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/auction_type_label">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:checked="true"
+                    android:id="@+id/show_both"
+                    android:title="@string/show_all" />
+
+                <item
+                    android:id="@+id/show_english"
+                    android:title="@string/auction_type_1"
+                    />
+                <item
+                    android:id="@+id/show_sealed_bid"
+                    android:title="@string/auction_type_2" />
+            </group>
+        </menu>
+    </item>
+</menu>
